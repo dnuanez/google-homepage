@@ -16,15 +16,15 @@ a {
 }
 
 .header {
-	display: flex;
-	justify-content: flex-end;
+  display: flex;
+  justify-content: flex-end;
   align-items: center;
   height: 35px;
   padding: 5px;
   margin: 15px 20px;
 }
 
-.header > a {
+.header>a {
   padding: 10px;
 }
 
@@ -79,7 +79,7 @@ a {
   padding: 10px 8px 6px 8px;
 }
 
-#search { 
+#search {
   width: 460px;
   font-size: 16px;
   border: 0;
@@ -139,11 +139,11 @@ a {
   justify-content: space-between;
 }
 
-.footer1 > a {
+.footer1>a {
   padding: 15px 15px 0px 15px;
 }
 
-.footer2 > a {
+.footer2>a {
   padding: 15px 15px 0px 15px;
 }
 
