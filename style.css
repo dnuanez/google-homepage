@@ -1,0 +1,152 @@
+body {
+  font-family: "Arial", sans-serif;
+  font-size: 1.1rem;
+  line-height: 1.4;
+}
+
+body,
+html {
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+  font-size: 0.8rem;
+}
+
+.header {
+	display: flex;
+	justify-content: flex-end;
+  align-items: center;
+  height: 35px;
+  padding: 5px;
+  margin: 15px 20px;
+}
+
+.header > a {
+  padding: 10px;
+}
+
+
+#main-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+.buttons,
+.search-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+#sign-in-button {
+  color: white;
+  background-color: #1a73e8;
+  border: 1px solid #1a73e8;
+  padding: 7px 12px;
+  font-weight: bold;
+  border-radius: 3px;
+}
+
+#sign-in-button:hover {
+  background-color: darkblue;
+}
+
+#main-logo {
+  padding-top: 60px;
+  padding-bottom: 20px;
+}
+
+.search-box {
+  top: 10px;
+  width: 580px;
+  height: 44px;
+  border: 1px solid rgb(223, 225, 229);
+  border-radius: 24px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+#searchlogo {
+  background-image: url(https://www.freepnglogos.com/uploads/search-png/search-icon-clip-art-clkerm-vector-clip-art-online-8.png);
+  background-size: cover;
+  padding: 10px 8px 6px 8px;
+}
+
+#search { 
+  width: 460px;
+  font-size: 16px;
+  border: 0;
+  outline: 0;
+  padding: 8px;
+}
+
+.search-box:hover {
+  box-shadow: 0 0 1px 1px #6f7072;
+  box-shadow: 0 0 4px 2px #dfe1e5;
+}
+
+#voiceinputlogo {
+  background-image: url(https://i.pinimg.com/originals/97/df/14/97df149bf7f068d3b7bcdfcd32a925bf.png);
+  background-size: cover;
+  padding: 16px;
+}
+
+.buttons {
+  width: 580px;
+  height: 70px;
+  padding-top: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.duo {
+  background-color: #f2f2f2;
+  border: 1px solid #f2f2f2;
+  outline: none;
+  border-radius: 4px;
+  color: #5f6368;
+  height: 36px;
+  padding-left: 16px;
+  padding-right: 16px;
+  margin: 11px 6px;
+  font-size: 14px;
+}
+
+.duo:hover {
+  border: 1px solid #111;
+  cursor: pointer;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  height: 40px;
+  width: 100%;
+  background-color: rgb(242, 242, 242);
+  border-top: 1px solid rgb(228, 228, 228);
+  display: flex;
+  flex-flow: column nowrap;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.footer1 > a {
+  padding: 15px 15px 0px 15px;
+}
+
+.footer2 > a {
+  padding: 15px 15px 0px 15px;
+}
+
+a:hover {
+  text-decoration: underline;
+}
